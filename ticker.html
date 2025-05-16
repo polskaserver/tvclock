@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+        .scroll { 
+				/* Font properties */
+            font-family: Arial; sans-serif;
+			font-size: 17pt;
+			color: white;
+			height: 35px;
+				
+				/* Font outline */
+			-webkit-text-stroke: 5px black;
+			paint-order: stroke fill;
+			}
+			
+		body {
+				/* I'm not sure this step is necessary as I think OBS removes the background as default */
+			background-color: #00FF00;
+			}
+			
+		span {
+			display: inline-block;
+			padding-right: 150%; /* Change this line to adjust the amount of time between each item in the ticker */
+			text-indent: 0;
+			}
+</style>
+</head>
+<body>
+<marquee class="scroll" width="100%" direction="left">
+																<!-- Add each item you want to appear in the ticker as a <span> -->
+	<span>Pop: Chris Brown arrested in 5-star hotel hours after landing in UK before world tour.</span>
+  <span>Technology: Former FBI Director James Comey takes down Instagram post after conservative uproar.</span>
+	<span>Pop: Tommy Lee and wife Brittany Furlan split after 6 years of marriage.</span>
+	<span>Netflix: Love, Death and Robots Season 4 is out now. People's reactions are awful.</span>
+	<span>Pop: Rihanna unveils new Smurfs song. The title of the song is "Friend of Mine".</span>
+	<span>Hulu: Reality Series "The Secret Live Of Mormon Wives" season 2 is out now. People Love it.</span>
+	<span>Only in this Channel: We have received brand new look of the channel. Please rate us in our E-mail: helloitswojancalendar@outlook.com</span> 
+	
+</marquee>
+</body>
+</html>
